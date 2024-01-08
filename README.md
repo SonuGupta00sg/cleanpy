@@ -1,5 +1,5 @@
 
-```markdown
+
 # Cleanpy
 
 Cleanpy is a simple data cleaning and preprocessing library created to assist data engineers and data scientists in preparing their data for analysis and machine learning. It includes basic functionality for filling missing values, normalizing data, encoding categorical variables, and handling outliers.
