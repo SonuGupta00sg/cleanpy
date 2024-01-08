@@ -12,10 +12,10 @@ Install the library:
 
 pip install .
 
-## Usage
+##Usage
 Here are some basic examples of how cleanpy can be used:
 
-### Fill Missing Values
+###Fill Missing Values
 import pandas as pd
 import cleanpy as cp
 
@@ -23,22 +23,22 @@ df = pd.DataFrame({'A': [1, 2, np.nan], 'B': [4, np.nan, 6]})
 df_filled = cp.fill_missing(df)
 
 
-### Normalize Column
+###Normalize Column
 df_normalized = cp.normalize_column(df, 'A')
 
 
-### Encode Categorical Data
+###Encode Categorical Data
 df_encoded = cp.encode_categorical(df, 'B')
 
 
-### Remove Outliers
+###Remove Outliers
 df_no_outliers = cp.remove_outliers(df, 'A')
 
 
-### Detect Outliers
+###Detect Outliers
 df['A_outliers'] = cp.detect_outliers(df, 'A')
 
 ### Note: Always make sure to inspect the result after applying these functions, as every dataset is unique and may require specialized handling.
 
-# Contributing
+#Contributing
 Contributions to this project are welcome! Please fork the repository and submit a pull request with your changes or improvements.
