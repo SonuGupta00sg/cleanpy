@@ -8,7 +8,7 @@ Cleanpy is a simple data cleaning and preprocessing library created to assist da
 
 Clone this repository:
 ```bash
-git clone https://github.com/your-username/cleanpy.git
+git clone https://github.com/SonuGupta00sg/cleanpy.git
 cd cleanpy
 ```
 
